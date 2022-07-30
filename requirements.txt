@@ -1,0 +1,3 @@
+pycairo
+PyGObject
+PyGObject-stubs==1.0.0
