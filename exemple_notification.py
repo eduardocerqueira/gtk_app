@@ -25,6 +25,8 @@ class MainWindow(Gtk.Window):
         self.button.connect("clicked", self.send_notification)
         self.box.pack_start(self.button, True, True, 0)
 
+
+
     def send_notification(self, widget):
         n = Notify.Notification.new(datetime.now().strftime("%m/%d/%Y, %H:%M:%S"), _GTK_APP_TITLE, "*")
         n.show()
